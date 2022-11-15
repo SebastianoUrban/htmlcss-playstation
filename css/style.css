@@ -21,6 +21,10 @@ footer {
     color: rgb(90, 90, 90);
 }
 
+.color-white {
+    color: white;
+}
+
 .my-title {
     font-weight:600 ;
     font-size: 2rem;
@@ -75,10 +79,21 @@ footer {
     border-color: blue;
 }
 
+#ps-plus {
+    background-color: #bebcbb;
+}
+
+#ps-now {
+    background-color: #161c3b;
+}
+
 
 
 
 @media all and (min-width: 768px) {
+    p {
+        font-size: 0.9rem;
+    }
     #ps5 .card-text {
         font-size: 0.85rem;
     }
