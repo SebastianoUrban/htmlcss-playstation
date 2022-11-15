@@ -1,15 +1,54 @@
+header {
+    font-family: Helvetica, sans-serif;
+}
+
+main, 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .my-placeholder {
     height: 100px;
     width: 100%;
     background-color: red;
 }
 
-#jumbo .wrapper-up {
-    padding-top: 250px;
-    background-image: url(../img/jumbo-bg.png);
+.color-blue {
+    color: blue;
+}
+
+.color-gray {
+    color: rgb(90, 90, 90);
+}
+
+.my-title {
+    font-weight:600 ;
+    font-size: 2rem;
+}
+
+.wrapper-up {
     background-position: center;
     background-size: cover;
     color: white;
+}
+
+
+#jumbo .wrapper-up {
+    padding-top: 250px;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+#new-exit .wrapper-up {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#new-exit .wrapper-down {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#new-exit .wrapper-down p {
+    font-size: 1rem;
 }
 
 .slider img{
@@ -23,3 +62,35 @@
     border: 2px solid blue;
 }
 
+#ps5 .card {
+    filter:opacity(0.5);
+    border: 0;
+    border-bottom: 2px;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#ps5 .card:hover{
+    filter:opacity(1);
+    border-color: blue;
+}
+
+
+
+
+@media all and (min-width: 768px) {
+    #ps5 .card-text {
+        font-size: 0.85rem;
+    }
+
+    #new-exit .wrapper-down p {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media all and (min-width: 992px) {
+    #new-exit .wrapper-down p {
+        font-size: 0.8rem;
+    }
+}
