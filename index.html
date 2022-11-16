@@ -14,10 +14,13 @@
 
 </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <header class="position-fixed">
+            <div id="header-sony" class="d-flex align-items-center justify-content-end px-3">
+                <img src="./img/sony_logo.svg" alt="Sony Logo">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <img src="./img/play_logo.svg" alt="" class="navbar-brand">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -55,7 +58,7 @@
 
 
         <main>
-            <section id="jumbo">
+            <section id="jumbo" class="mb-5">
                 <div class="wrapper-up bg-secondary">
                     <div class="container-lg p-4">
                         <div class="row py-4">
@@ -122,8 +125,8 @@
                             <img class="w-100" src="./img/playstation-5-thumb.png" alt="PlayStation 5">
                         </div>
                     </div>
-                    <div class="row justify-content-md-between">
-                        <div class="col-4 col-md-2">
+                    <div class="row row-cols-3 row-cols-md-5  justify-content-md-between">
+                        <div class="col">
                             <div class="card w-100">
                                 <img src="./img/playstation-5-thumb.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -131,35 +134,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 col-md-2">
+                        <div class="col">
                             <div class="card w-100 ">
                                 <img src="./img/joypad-thumb.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Controller wireless DualSense</p>
+                                    <p class="card-text d-none d-md-block">Controller wireless DualSense</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 col-md-2">
+                        <div class="col">
                             <div class="card w-100 ">
                                 <img src="./img/headset-thumb.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Cuffie wireless con microfono PULSE 3</p>
+                                    <p class="card-text d-none d-md-block">Cuffie wireless con microfono PULSE 3</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 col-md-2">
+                        <div class="col">
                             <div class="card w-100 ">
                                 <img src="./img/remote-thumb.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Telecomando Media</p>
+                                    <p class="card-text d-none d-md-block">Telecomando Media</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 col-md-2">
+                        <div class="col">
                             <div class="card w-100 ">
                                 <img src="./img/camera-thumb.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Telecamera HD</p>
+                                    <p class="card-text d-none d-md-block">Telecamera HD</p>
                                 </div>
                             </div>
                         </div>
@@ -186,79 +189,84 @@
                 </div>
                 <div class="wrapper-down">
                     <div class="container-lg p-4">
+                        <div class="row">
+                            <h2 class="my-title">Nuove uscite</h2>
+                            <h3 class="my-3">Giochi incredibili per PS4 e PS5 disponibili ora</h3>
+                        </div>
                         <div class="row g-4 g-lg-2 slider">
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-cad">
                                     <img class="w-100" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Tony Hawk's Pro Skater 1 + 2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-card">
                                     <img class="w-100" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Crash Bandicoot 4: It's About Time</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-cad">
                                     <img class="w-100" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Tony Hawk's Pro Skater 1 + 2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-card">
                                     <img class="w-100" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Crash Bandicoot 4: It's About Time</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-cad">
                                     <img class="w-100" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Tony Hawk's Pro Skater 1 + 2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-card">
                                     <img class="w-100" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Crash Bandicoot 4: It's About Time</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-cad">
                                     <img class="w-100" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Tony Hawk's Pro Skater 1 + 2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-card">
                                     <img class="w-100" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Crash Bandicoot 4: It's About Time</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-cad">
                                     <img class="w-100" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Tony Hawk's Pro Skater 1 + 2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-card">
                                     <img class="w-100" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Crash Bandicoot 4: It's About Time</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-cad">
                                     <img class="w-100" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Tony Hawk's Pro Skater 1 + 2</p>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-lg-2">
-                                <div class="my-cad px-3 px-lg-0">
+                                <div class="my-card">
                                     <img class="w-100" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Returnal">
                                     <p class="px-3 ">Crash Bandicoot 4: It's About Time</p>
                                 </div>
                             </div>
+                            
                             
                             
                         </div>
@@ -302,7 +310,7 @@
 
             <section id="ps-plus">
                 <div class="container-lg px-4">
-                    <div class="row">
+                    <div class="row py-5 py-md-0">
                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <img class="w-75 mb-4" src="./img/ps-plus-logo.png" alt="Returnal Logo">
                             <p class="mb-4">
@@ -321,11 +329,11 @@
             </section>
             
             <section id="ps-store">
-                <div class="container-lg py-4">
+                <div class="container-lg py-4 my-5">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h2 class="my-title fs-1 mb-3">Nuovi sconti su PlayStation Store</h2>
-                            <p class="color-gray mb-3">
+                            <h2 class="my-title fs-1 mb-4">Nuovi sconti su PlayStation Store</h2>
+                            <p class="color-gray mb-5">
                                 Sconti pazzeschi, collezioni curate e saldi stagionali su 
                                 PS5, PS4 e PS VR, tutti in un unico posto.
                             </p>
@@ -348,7 +356,7 @@
 
             <section id="ps-now">
                 <div class="container-lg px-4">
-                    <div class="row">
+                    <div class="row py-5 py-md-0">
                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <img class="w-75 mb-4" src="./img/ps-now-logo-two-column.png" alt="Returnal Logo">
                             <p class="mb-4 color-white">
@@ -366,27 +374,27 @@
                 </div>
             </section>
 
-            <section>
-                <div class="container py-4">
-                    <div class="row">
+            <section id="social">
+                <div class="container-lg p-4">
+                    <div class="row mb-5 mt-5">
                         <div class="col-12 text-center">
-                            <h2>social</h2>
+                            <h2 class="my-title">Seguici sui social media</h2>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center mb-5">
                         <div class="col-12 col-md-8 col-lg-6">
                             <div class="row justify-content-between g-4">
                                 <div class="col-6 col-sm-3">
-                                    <div class="my-placeholder"></div>
+                                    <img src="./img/twitter.jpg" alt="Twitter" class="w-100">
                                 </div>
                                 <div class="col-6 col-sm-3">
-                                    <div class="my-placeholder"></div>
+                                    <img src="./img/facebook.jpg" alt="Facebook" class="w-100">
                                 </div>
                                 <div class="col-6 col-sm-3">
-                                    <div class="my-placeholder"></div>
+                                    <img src="./img/instagram.jpg" alt="Instagram" class="w-100">
                                 </div>
                                 <div class="col-6 col-sm-3">
-                                    <div class="my-placeholder"></div>
+                                    <img src="./img/youtube.png" alt="You Tube" class="w-100">
                                 </div>
                             </div>
                         </div>
@@ -394,28 +402,59 @@
                 </div>
             </section>
         </main>
-        <footer class="bg-primary">
-            <div class="container py-4">
+        <footer>
+            <div class="container-lg p-4">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <h2>Logo playstation</h2>
+                    <div class="col-12 col-lg-6 d-flex flex-column mb-4">
+                        <img id="logo-footer" class="mb-4" src="./img/ps-footer.svg" alt="PlayStation Logo">
+                        <div class="d-flex align-items-center">
+                            <img id="globe" src="./img/language-globe.svg" alt="Globe footer">
+                            <p class="mb-0 mx-2">Country / Region: Italy</p>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 mb-4 px-5 px-lg-0">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <h2>link</h2>
+                                <ul class="list-unstyled">
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                </ul>
                             </div>
                             <div class="col-12 col-md-4">
-                                <h2>link</h2>
+                                <ul class="list-unstyled">
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                </ul>
                             </div>
                             <div class="col-12 col-md-4">
-                                <h2>link</h2>
+                                <ul class="list-unstyled">
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                    <li class="lh-lg">Link footer n</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <h2>copyright</h2>
+                    <div class="col-12 col-lg-6">
+                        <img id="sie-logo" src="./img/sie-logo.svg" alt="Sie Logo" class="mb-3">
+                        <p>
+                            Website ©2022 Sony Interactive Entertainment Europe Limited. 
+                            Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, 
+                            marchi registrati, grafica e immagini associati sono marchi registrati e/o 
+                            materiale protetto da copyright dei rispettivi proprietari. 
+                            Tutti i diritti riservati. <a href="#">Maggiori info</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>

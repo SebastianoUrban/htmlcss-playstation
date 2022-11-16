@@ -1,10 +1,27 @@
 header {
     font-family: Helvetica, sans-serif;
+    width: 100%;
+    z-index: 2;
 }
+
+#header-sony {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+#header-sony img{
+    height: 14px;
+}
+
 
 main, 
 footer {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding-top: 90px;
 }
 
 .my-placeholder {
@@ -55,6 +72,10 @@ footer {
     font-size: 1rem;
 }
 
+#new-exit .wrapper-down h3 {
+    font-size: 1.6rem;
+}
+
 .slider img{
     padding: 5px;
     border-radius: 2em;
@@ -87,7 +108,31 @@ footer {
     background-color: #161c3b;
 }
 
+footer {
+    background-color: #00439c;
+    color: white;
+    padding: 50px;
+}
 
+#logo-footer {
+    width: 100px;
+}
+
+#globe {
+    width: 20px;
+}
+
+#sie-logo {
+    width: 150px;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+footer li {
+    
+}
 
 
 @media all and (min-width: 768px) {
