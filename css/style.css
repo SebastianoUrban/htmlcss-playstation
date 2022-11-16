@@ -153,4 +153,9 @@ footer li {
     #new-exit .wrapper-down p {
         font-size: 0.8rem;
     }
+
+    #jumbo .wrapper-up {
+        padding-top: calc(100vh / 6);
+    }
 }
+
